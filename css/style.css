@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+
+/*navbar styling*/
+.navbar{
+ background-color:#222222 !important;
+ text-transform:uppercase;
+ font-family:'PT Sans Narrow',Arial,san-serif;
+ font-weight:700;
+}
+.navbar a{
+color:#fff !important;
+opacity:0.7;	
+}
+	
+.navbar a:hover{
+opacity:1;
+background-color:#111111 !important;	
+}
+
+/*header styling*/
+.header{
+height:600px;
+width:100%;
+padding:30px 0 30px;
+margin-top:50px;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/SplitShire-Cinemagraph-Typing.gif);
+background-position:center center;
+background-repeat:no-repeat;
+background-size:cover;
+color:#fff;	
+}
+
+.header h1{
+text-transform:uppercase;
+font-family:Tahoma, Geneva, sans-serif;
+font-weight:500;
+padding-top:30px;
+font-size:40px;	
+}
+
+.header p{
+line-height:20px; 
+font-size:18px;
+}
+
+.header img{
+height:470px;
+width:auto;	
+margin:70px 0 0 40px;
+}
+
+.header h1,.header p,.header button{
+margin-top:20px;	
+}
+
+.header .btn{ 
+border-radius:0; 
+margin:40px 20px;
+}
+@media(max-width:768px){
+	.header{padding:30px; height:760px;}
+	.header img{width:90%; height:300px; margin:20px 0 0 20px;}
+	.header .btn{font-size:10px; margin:0 10px 0 0;}
+	.header h1{font-size:20px;}
+	.header p{font-size:13px; font-weight:bold;}
+}
+
+/*bootcamp features*/
+.codeserve{
+	text-align:center;
+padding:80px 0 80px 0 ;
+width:100% !important;
+
+}
+.codeserve h2{ text-transform:uppercase;
+font-weight:700;
+
+}
+.codeserve h4,.codeserve h2{color:#4c4c4c; margin:20px 0 20px;}
+
+.codeserve p{
+	color:#737373;
+font-size:18px;
+padding-bottom:40px;
+text-align:justify ;
+}
+.codeserve i{
+height:80px;
+width:80px;
+border-radius:50%;
+padding:25px 20px;
+background-color:#6699cc;
+color:#fff; font-size:30px;	
+}
+.mm{text-align:center !important;}
+
+@media(max-width:768px){
+	.codeserve{padding:30px; 
+	text-align:center !important;}
+	.codeserve p{text-align:center !important;}
+	}
+	
+/*	pricing*/
+.pricing{
+	padding:50px 0 80px;
+	text-align:center;
+	background-color:#3399ff;
+}
+.pricing h2,.pricing p{color:#fff;}
+.pricing p{padding-bottom:40px}
+.pricing .packages{
+	border:1px solid #ccc;
+	padding:30px;
+	border-radius:5px;
+	background-color:#fff;
+	margin-top:30px;
+	}
+.pricing li{ display:block; padding:5px;}
+.packages h4,.packages h1,.packages b{color:#4c4c4c;}
+.packages p,.packages li{color:#737373;}
+.packages button{ margin-top:10px;}
+
+@media(max-width:756px){
+	.pricing{padding:30px;}
+	}
+	
+/*	team*/
+.team{padding:50px 0 80px;
+text-align:center;
+}
+.team b,.team h2,.team h4{
+margin:20px 0 20px;
+color:#4c4c4c;
+}
+.team p{color:#737373;}
+.team img{height:120px; 
+width:120px;
+margin-top:80px;
+}
+.team i{
+height:30px;
+width:30px;
+border-radius:50%;
+background-color:#a0db8e;
+font-size:17px;
+padding:5px 5px;
+color:#fff;	
+}
+.team a:hover i{
+background-color:#709963;
+}
+
+/*sponsors*/
+.sponsors{
+	padding:50px 0 80px;
+	text-align:center;
+	background-color:#3399ff;
+}
+.sponsors h2{
+text-transform:uppercase;
+font-weight:700;
+color:#fff;
+margin-bottom:40px;	
+}
+.sponsors p{
+  font-size:24px;
+  color:#fff;
+  margin-bottom:30px;
+}
+.sponsors img{
+width:200px;
+margin:50px 0;
+opacity:0.6;
+transition:all 500ms ease-in-out;	
+	}
+.sponsors img:hover{
+opacity:1;
+transition:all 500ms ease-in-out;	
+}
+	
+/*contact*/
+.contact{
+padding:50px 0 80px;
+text-align:center;	
+}
+.contact .input-group{
+margin-bottom:30px;
+}
+
+.contact textarea{
+ border-radius:5px !important;
+ font-size:16px; 
+ }
+ .contact .btn{ 
+width:100%;
+background-color:#3399ff !important;
+color:#fff !important;
+}
+.contact .btn:hover{
+background-color:#0073e6 !important;
+transition:all 500ms ease-in;
+}
+.contact h2, .contact p{
+margin-bottom:50px;	
+}
+.contact h2{
+	font-weight:700;	
+}
+ .contact p{ font-size:20px;}
+ 
+/* footer*/
+.footer{padding:30px;
+background-color:#222222;
+color:#cccccc;
+}
+
+.footer .social{
+font-size:20px;
+height:30px;
+width:30px;
+border:1px solid #ccc;
+text-align:center;
+padding:5px;
+border-radius:5px;
+margin:0 5px 10px 0;
+color:#fff;	
+}
+
+.footer input{
+height:40px;
+width:160px;
+padding:5px;
+background-color:#ccc;
+border:none;
+color:#000;	
+}	
+
+.footer .btn{
+padding:10px 5px 10px;
+margin:-3px 0 0 5px;
+}
+.footer h4{
+margin-bottom:30px;
+color:#fff;	
+}
+.footer p{
+font-size:18px;	
+}
+@media(max-width:756px){
+.footer input{width:120px;}	
+}
+
+/*login page style*/
+#content{ margin-top:50px !important;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/apple-devices-1867761_960_720.jpg);
+padding:50px 0 80px;
+}
+.main{ text-align:center;
+color:#fff;
+text-transform:uppercase;
+}
+.para{
+	padding:40px;
+	color:#fff;
+	font-size:20px;
+	}
